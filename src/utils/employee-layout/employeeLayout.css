@@ -1,0 +1,87 @@
+.employee-layout-container {
+  width: 100%;
+  background: #ecf0f5;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee-layout-body {
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.employee-layout-body::-webkit-scrollbar {
+  display: none;
+}
+
+.employee-layout-wrapper {
+  padding: 46px 50px;
+  box-sizing: border-box;
+}
+
+.employee-layout-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.employee-layout-head > h2 {
+  color: #05264e;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 125% */
+}
+
+.employee-layout-cont {
+  display: flex;
+  gap: 30px;
+}
+
+.employee-layout-cont button {
+  border-radius: 5.01px;
+  border: 1px solid #6571ff;
+  background: #6571ff;
+  padding: 9.11px 25.33px 11.09px 26.11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.employee-layout-link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 15.8px 11px 16px;
+  border-radius: 6px;
+  border: 1px solid #e0e6f7;
+  background: #fff;
+}
+
+.employee-layout-link div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.employee-layout-link p {
+  color: #66789c;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}

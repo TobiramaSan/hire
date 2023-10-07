@@ -1,0 +1,906 @@
+.employer-personal-details-child {
+  position: absolute;
+  top: 1025px;
+  left: 856px;
+  background-color: var(--color-antiquewhite);
+  width: 188px;
+  height: 55px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 113.78px;
+  width: 235.01px;
+  height: 210.5px;
+}
+.step-2 {
+  font-weight: 900;
+}
+.job-requirement,
+.step-2 {
+  margin: 0;
+}
+.step-2-job-container {
+  position: absolute;
+  top: 58.39px;
+  left: 131.29px;
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.group-item {
+  position: absolute;
+  top: 42.89px;
+  left: 2.63px;
+  border-radius: 50%;
+  background-color: #001f5f;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 126.91px;
+  height: 123.41px;
+}
+.register-employer {
+  position: absolute;
+  top: 69.9px;
+  left: 0;
+  font-weight: 900;
+  color: var(--color-white);
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.vector-parent {
+  position: absolute;
+  top: 25px;
+  left: 546px;
+  width: 348.79px;
+  height: 210.5px;
+  text-align: center;
+  font-family: var(--font-lato);
+}
+.group-inner,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 180px;
+  height: 87px;
+}
+.rectangle-div {
+  top: 11px;
+  left: 16px;
+  border-radius: 5px;
+  background-color: var(--color-gainsboro);
+  width: 149px;
+  height: 59px;
+}
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+  font-weight: 600;
+}
+.group-child1,
+.group-child2,
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 30px;
+  height: 2px;
+}
+.group-child2,
+.group-child3 {
+  top: 5px;
+}
+.group-child3 {
+  top: 10px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  width: 30px;
+  height: 12px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 87px;
+  text-align: center;
+  font-family: var(--font-poppins);
+}
+.employer-personal-details-item {
+  position: absolute;
+  top: 251px;
+  left: 45px;
+  background-color: var(--color-black);
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 672px;
+  height: 93px;
+}
+.job-specification {
+  position: absolute;
+  top: 268px;
+  left: 113px;
+  font-size: 40px;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+}
+.click-here {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 800;
+}
+.button {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.button-parent,
+.button1 {
+  position: absolute;
+  height: 66px;
+}
+.button1 {
+  top: 0;
+  left: 370px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button-parent {
+  top: 1987px;
+  left: 396px;
+  width: 649px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+.group-child4 {
+  position: absolute;
+  top: 1.71px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 353.68px;
+  height: 47.1px;
+}
+.mode-of-application {
+  position: absolute;
+  top: 0.86px;
+  left: 13.7px;
+  font-weight: 500;
+  display: inline-block;
+  width: 317.72px;
+  height: 39.39px;
+}
+.group-child5 {
+  position: absolute;
+  top: 1.71px;
+  left: 375.09px;
+  background-color: var(--color-antiquewhite);
+  width: 262.91px;
+  height: 98.48px;
+}
+.hirememu-live-job-container {
+  position: absolute;
+  top: 0.86px;
+  left: 388.79px;
+  font-weight: 500;
+  display: inline-block;
+  width: 216.66px;
+  height: 39.39px;
+}
+.group-child6 {
+  position: absolute;
+  top: 4.28px;
+  left: 727.06px;
+  background-color: var(--color-antiquewhite);
+  width: 422.19px;
+  height: 98.48px;
+}
+.divert-applications-to {
+  position: absolute;
+  top: 3.43px;
+  left: 740.77px;
+  font-weight: 500;
+  display: inline-block;
+  width: 384.51px;
+  height: 39.39px;
+}
+.group-child7 {
+  position: absolute;
+  top: 174.7px;
+  left: 425.62px;
+  background-color: var(--color-black);
+  width: 422.19px;
+  height: 67.65px;
+}
+.go-to-cart {
+  position: absolute;
+  top: 165.28px;
+  left: 463.3px;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 384.51px;
+  height: 77.07px;
+}
+.group-child8 {
+  position: absolute;
+  top: 105.33px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 306.58px;
+  height: 47.1px;
+}
+.view-available-packages {
+  position: absolute;
+  top: 105.33px;
+  left: 13.7px;
+  font-weight: 500;
+  display: inline-block;
+  width: 272.33px;
+  height: 39.39px;
+}
+.group-child10,
+.group-child9 {
+  position: absolute;
+  top: 0.86px;
+  left: 655.13px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 63.37px;
+  height: 36.82px;
+}
+.group-child10 {
+  top: 0;
+  left: 1174.95px;
+  width: 101.05px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 1637px;
+  left: 78px;
+  width: 1276px;
+  height: 242.35px;
+  font-size: var(--font-size-9xl);
+}
+.group-child11 {
+  position: absolute;
+  top: 0;
+  left: 317px;
+  background-color: #bcd3ff;
+  width: 423px;
+  height: 395px;
+}
+.group-child12,
+.rectangle-icon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 28px;
+  height: 24px;
+}
+.group-child12 {
+  left: 33px;
+  background-color: #c93f3c;
+  width: 328px;
+  height: 28px;
+}
+.add-another-skill {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  font-weight: 600;
+}
+.vector-group {
+  position: absolute;
+  top: 301px;
+  left: 0;
+  width: 361px;
+  height: 32px;
+}
+.group-child13,
+.group-child14,
+.group-child15 {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  width: 302px;
+  height: 26px;
+}
+.group-child14,
+.group-child15 {
+  top: 35px;
+}
+.group-child15 {
+  top: 70px;
+  width: 303px;
+}
+.group-child16,
+.group-child17,
+.group-child18,
+.group-child19 {
+  position: absolute;
+  top: 108px;
+  left: 21px;
+  width: 303px;
+  height: 26px;
+}
+.group-child17,
+.group-child18,
+.group-child19 {
+  top: 147px;
+}
+.group-child18,
+.group-child19 {
+  top: 184px;
+}
+.group-child19 {
+  top: 220px;
+}
+.group-child20,
+.group-parent {
+  position: absolute;
+  top: 28px;
+  left: 328px;
+  width: 361px;
+  height: 333px;
+}
+.group-child20 {
+  top: 2px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 163px;
+  height: 55px;
+}
+.key-skills {
+  position: absolute;
+  top: 1px;
+  left: 16px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 140px;
+  height: 46px;
+}
+.group-div {
+  position: absolute;
+  top: 1190px;
+  left: 56px;
+  width: 740px;
+  height: 395px;
+  font-size: 15px;
+  color: var(--color-white);
+}
+.group-child21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 233.65px;
+  height: 48.13px;
+}
+.qualifications {
+  position: absolute;
+  top: 0.37px;
+  left: 18.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 169.77px;
+  height: 40.25px;
+}
+.group-child22 {
+  position: absolute;
+  top: 53.38px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 233.65px;
+  height: 48.13px;
+}
+.work-experience {
+  position: absolute;
+  top: 54.75px;
+  left: 16.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 207.39px;
+  height: 40.25px;
+}
+.group-child23 {
+  position: absolute;
+  top: 105.01px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 233.65px;
+  height: 48.13px;
+}
+.salary-grid {
+  position: absolute;
+  top: 107.38px;
+  left: 17.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 207.39px;
+  height: 40.25px;
+}
+.group-child24 {
+  position: absolute;
+  top: 3.5px;
+  left: 260.78px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 374.54px;
+  height: 36.75px;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 821.63px;
+  left: 69px;
+  width: 635.31px;
+  height: 153.14px;
+  font-size: var(--font-size-3xl);
+}
+.group-child25,
+.group-child26 {
+  position: absolute;
+  top: 7.88px;
+  left: 78.76px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 39.38px;
+  height: 36.75px;
+}
+.group-child26 {
+  left: 322.03px;
+}
+.group-child27,
+.group-child28,
+.group-child29,
+.group-child30,
+.group-child31,
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  position: absolute;
+  top: 62.13px;
+  left: 178.52px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 39.38px;
+  height: 36.75px;
+}
+.group-child28,
+.group-child29,
+.group-child30,
+.group-child31,
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  left: 443.67px;
+}
+.group-child29,
+.group-child30,
+.group-child31,
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 9.63px;
+  left: 576.68px;
+}
+.group-child30,
+.group-child31,
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 7.88px;
+  left: 801.58px;
+}
+.group-child31,
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 62.13px;
+  left: 702.69px;
+}
+.group-child32,
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 60.38px;
+  left: 966.97px;
+}
+.group-child33,
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 7.88px;
+  left: 994.97px;
+}
+.group-child34,
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 159.27px;
+  left: 198.64px;
+  width: 48.13px;
+  height: 37.63px;
+}
+.group-child35,
+.group-child36,
+.group-child37 {
+  top: 161.89px;
+  left: 462.92px;
+}
+.group-child36,
+.group-child37 {
+  left: 724.57px;
+}
+.group-child37 {
+  top: 159.27px;
+  left: 990.6px;
+}
+.group-child38 {
+  position: absolute;
+  top: 0;
+  left: 6.13px;
+  background-color: var(--color-gainsboro);
+  width: 66.51px;
+  height: 51.63px;
+}
+.nil {
+  left: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 36.75px;
+  height: 40.25px;
+}
+.div,
+.group-child39,
+.nil {
+  position: absolute;
+  top: 0;
+}
+.group-child39 {
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 167.14px;
+  height: 48.13px;
+}
+.div {
+  left: 16.63px;
+  font-weight: 500;
+  display: inline-block;
+  width: 140.01px;
+  height: 40.25px;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 56.01px;
+  left: 0;
+  width: 167.14px;
+  height: 48.13px;
+}
+.div1,
+.group-child40 {
+  position: absolute;
+  top: 0;
+}
+.group-child40 {
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 186.39px;
+  height: 48.13px;
+}
+.div1 {
+  left: 17.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 150.51px;
+  height: 40.25px;
+}
+.group-child42,
+.rectangle-parent4,
+.rectangle-parent5 {
+  position: absolute;
+  top: 59.51px;
+  left: 233.65px;
+  width: 186.39px;
+  height: 48.13px;
+}
+.group-child42,
+.rectangle-parent5 {
+  top: 57.76px;
+  left: 494.42px;
+}
+.group-child42 {
+  top: 3.5px;
+  left: 370.16px;
+  background-color: var(--color-antiquewhite);
+}
+.rectangle-parent6,
+.years {
+  position: absolute;
+  text-align: center;
+}
+.years {
+  top: 3.5px;
+  left: 387.66px;
+  font-weight: 500;
+  display: inline-block;
+  width: 150.51px;
+  height: 40.25px;
+}
+.rectangle-parent6 {
+  top: 0;
+  left: 126.89px;
+  width: 186.39px;
+  height: 48.13px;
+}
+.group-child45,
+.rectangle-parent7 {
+  position: absolute;
+  top: 56.01px;
+  left: 762.2px;
+  width: 186.39px;
+  height: 48.13px;
+}
+.group-child45 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 127.09px;
+}
+.years2 {
+  position: absolute;
+  top: 0;
+  left: 15.04px;
+  font-weight: 500;
+  display: inline-block;
+  width: 129.35px;
+  height: 40.25px;
+}
+.group-child46,
+.rectangle-parent8 {
+  position: absolute;
+  top: 1.75px;
+  left: 846.21px;
+  width: 144.39px;
+  height: 48.13px;
+}
+.group-child46 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 176.77px;
+}
+.years3 {
+  position: absolute;
+  top: 0;
+  left: 25.54px;
+  font-weight: 500;
+  display: inline-block;
+  width: 129.35px;
+  height: 40.25px;
+}
+.group-child47,
+.rectangle-parent9 {
+  position: absolute;
+  top: 1.75px;
+  left: 620.43px;
+  width: 176.77px;
+  height: 48.13px;
+}
+.group-child47 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 188.14px;
+}
+.rectangle-parent10,
+.rectangle-parent11 {
+  position: absolute;
+  top: 161.02px;
+  left: 3.5px;
+  width: 188.14px;
+  height: 48.13px;
+}
+.rectangle-parent11 {
+  top: 158.39px;
+  left: 260.78px;
+}
+.div6,
+.not-disclosed {
+  position: absolute;
+  top: 157.52px;
+  left: 541.68px;
+  font-weight: 500;
+  display: inline-block;
+  width: 158.39px;
+  height: 40.25px;
+}
+.not-disclosed {
+  top: 0;
+  left: 16.63px;
+}
+.rectangle-parent12 {
+  position: absolute;
+  top: 157.52px;
+  left: 791.08px;
+  width: 188.14px;
+  height: 48.13px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 872.38px;
+  left: 333.28px;
+  width: 1038.72px;
+  height: 209.14px;
+  font-size: var(--font-size-3xl);
+}
+.employer-personal-details-inner {
+  position: absolute;
+  top: 737px;
+  left: 72px;
+  background-color: #bebebe;
+  width: 930px;
+  height: 58px;
+}
+.job-criteria {
+  position: absolute;
+  top: 738px;
+  left: 467px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  text-align: center;
+}
+.group-child50 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 267px;
+  height: 55px;
+}
+.job-title {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  font-weight: 500;
+}
+.group-child51 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 267px;
+  height: 55px;
+}
+.job-type {
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  font-weight: 500;
+}
+.group-child52 {
+  position: absolute;
+  top: 237px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 267px;
+  height: 55px;
+}
+.job-status {
+  position: absolute;
+  top: 242px;
+  left: 20px;
+  font-weight: 500;
+}
+.rectangle-parent13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267px;
+  height: 295px;
+}
+.group-child53,
+.group-child54,
+.group-child55 {
+  position: absolute;
+  top: 4px;
+  left: 298px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 428px;
+  height: 42px;
+}
+.group-child54,
+.group-child55 {
+  top: 67px;
+}
+.group-child55 {
+  top: 248px;
+}
+.group-container {
+  position: absolute;
+  top: 404px;
+  left: 69px;
+  width: 726px;
+  height: 295px;
+}
+.skills-and-competencies {
+  margin: 0;
+  font-weight: 600;
+}
+.communication-skills-it {
+  margin: 0;
+  font-weight: 500;
+}
+.skills-and-competencies-container {
+  position: absolute;
+  top: 1247px;
+  left: 844px;
+  font-size: var(--font-size-3xl);
+}
+.employer-personal-details {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: #daedf4;
+  /* border: 2px solid rgba(20, 20, 20, 0.1); */
+  box-sizing: border-box;
+  width: 100%;
+  height: 2216px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans-arabic);
+}

@@ -1,0 +1,50 @@
+.featured-circular-cont {
+  width: 100%;
+  background-color: white;
+  padding: 50px 0px 200px;
+}
+
+.featured-circular-container {
+  width: 81%;
+  margin: 0px auto;
+}
+
+.featured-circular-container > h2 {
+  color: #000;
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.featured-circular-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.featured-circular-single {
+  width: 23%;
+}
+
+@media screen and (max-width: 600px) {
+  .featured-circular-container {
+    width: 90%;
+  }
+  .featured-circular-single {
+    width: 100%;
+  }
+
+  .featured-circular-container > h2 {
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+
+  .featured-circular-wrapper {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,161 @@
+.step-one-container {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.step-one-img {
+  border-bottom: 8px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 23px;
+}
+
+.step-one-new {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-direction: column;
+  width: 40%;
+  margin: 180px auto 0px;
+  box-sizing: border-box;
+}
+
+.step-one-new > h2 {
+  padding: 16px 50px;
+  background: #c0504e;
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.new-job-form,
+.step-one-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.new-job-form label {
+  color: #666;
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.new-job-form input {
+  border-radius: 12px;
+  border: 1px solid #385d87;
+  background: #4f81bc;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.new-job-form p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.step-one-action button {
+  border-radius: 50%;
+  color: #0706ce;
+  border: 0px;
+  margin: 0px auto;
+  width: fit-content;
+  display: block;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #fb8d2c;
+  padding: 25px 85px;
+}
+
+.step-one-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.step-one-socials {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.step-one-socials div {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 10px 63.5px;
+  box-sizing: border-box;
+}
+
+.step-one-socials div p {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.step-one-container > p {
+  color: #000;
+  text-align: center;
+  margin: 80px 0px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.green-line {
+  height: 8px;
+  background-color: #97b754;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.brown-line {
+  height: 8px;
+  background-color: #be5456;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .step-one-new {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .step-one-divider img {
+    width: 20%;
+  }
+
+  .step-one-socials {
+    flex-direction: column;
+  }
+
+  .step-one-socials div {
+    padding: 10px 0px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,324 @@
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 180px;
+  height: 87px;
+}
+.group-item {
+  top: 11px;
+  left: 16px;
+  border-radius: 5px;
+  background-color: var(--color-gainsboro);
+  width: 149px;
+  height: 59px;
+}
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+  font-weight: 600;
+}
+.group-child1,
+.group-inner,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 30px;
+  height: 2px;
+}
+.group-child1,
+.rectangle-div {
+  top: 5px;
+}
+.group-child1 {
+  top: 10px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  width: 30px;
+  height: 12px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 87px;
+  text-align: center;
+  font-size: 25px;
+  font-family: var(--font-poppins);
+}
+.click-here {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 800;
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 1902px;
+  left: 404px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+.button1 {
+  left: 774px;
+}
+.admin-profilr-overview-child {
+  position: absolute;
+  top: 89px;
+  left: 226px;
+  background-color: #4f81bc;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1060px;
+  height: 124px;
+}
+.admin-profile-overview {
+  position: absolute;
+  top: 70px;
+  left: 313px;
+  font-size: 80px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 1084px;
+}
+.admin-profilr-overview-item {
+  position: absolute;
+  top: 290px;
+  left: 74px;
+  background-color: #dce6f0;
+  border: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 1323px;
+  height: 1531px;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-red);
+  width: 423px;
+  height: 87px;
+}
+.manage-candidates {
+  position: absolute;
+  top: 15px;
+  left: 57px;
+  font-weight: 100;
+  display: inline-block;
+  width: 331px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 1007px;
+  left: 956px;
+  width: 423px;
+  height: 87px;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+}
+.admin-profilr-overview-inner {
+  position: absolute;
+  top: 1007px;
+  left: 118px;
+  background-color: var(--color-red);
+  width: 398px;
+  height: 87px;
+}
+.manage-employers {
+  position: absolute;
+  top: 1019px;
+  left: 184px;
+  font-size: var(--font-size-15xl);
+  font-weight: 100;
+  color: var(--color-white);
+}
+.admin-profilr-overview-child1,
+.admin-profilr-overview-child2,
+.admin-profilr-overview-child3,
+.admin-profilr-overview-child4 {
+  position: absolute;
+  top: 818px;
+  left: 118px;
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 381px;
+  height: 128px;
+}
+.admin-profilr-overview-child2,
+.admin-profilr-overview-child3,
+.admin-profilr-overview-child4 {
+  top: 1167px;
+  left: 265px;
+  width: 438px;
+}
+.admin-profilr-overview-child3,
+.admin-profilr-overview-child4 {
+  left: 768px;
+}
+.admin-profilr-overview-child4 {
+  top: 818px;
+  left: 948px;
+  width: 380px;
+}
+.admin-profilr-overview-child5 {
+  position: absolute;
+  top: 336px;
+  left: 118px;
+  background-color: #f1f1f1;
+  border: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 801px;
+  height: 326px;
+}
+.group-child3,
+.group-child4,
+.group-child5,
+.group-child6 {
+  position: absolute;
+  top: 19.3px;
+  left: 262.9px;
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 414.1px;
+  height: 52px;
+}
+.group-child4,
+.group-child5,
+.group-child6 {
+  top: 79.97px;
+}
+.group-child5,
+.group-child6 {
+  top: 140.64px;
+}
+.group-child6 {
+  top: 201.31px;
+}
+.log-off,
+.name,
+.password,
+.username {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 100;
+  display: inline-block;
+  width: 131.93px;
+  height: 89.56px;
+}
+.log-off,
+.password,
+.username {
+  top: 61.67px;
+  width: 212.83px;
+}
+.log-off,
+.password {
+  top: 121.38px;
+  left: 0.96px;
+}
+.log-off {
+  top: 182.05px;
+  left: 0;
+}
+.group-div {
+  position: absolute;
+  top: 363px;
+  left: 145px;
+  width: 677px;
+  height: 271.61px;
+}
+.add-candidate,
+.add-employer,
+.manage-plans,
+.payment-history {
+  position: absolute;
+  top: 837px;
+  left: 175px;
+  font-weight: 100;
+  display: inline-block;
+  width: 299px;
+  height: 90px;
+}
+.add-candidate,
+.manage-plans,
+.payment-history {
+  top: 1190px;
+  left: 334px;
+}
+.add-candidate,
+.payment-history {
+  left: 822px;
+  width: 322px;
+}
+.add-candidate {
+  top: 837px;
+  left: 997px;
+}
+.admin-profilr-overview-child6,
+.admin-profilr-overview-child7 {
+  position: absolute;
+  top: 1011px;
+  left: 578px;
+  background-color: var(--color-palegoldenrod);
+  width: 324px;
+  height: 89px;
+}
+.admin-profilr-overview-child7 {
+  top: 837px;
+}
+.user-settings,
+.view-applications {
+  position: absolute;
+  top: 844px;
+  left: 598px;
+  font-size: var(--font-size-16xl);
+  font-weight: 100;
+  display: inline-block;
+  width: 299px;
+  height: 90px;
+}
+.user-settings {
+  top: 1013px;
+  left: 586px;
+  text-align: center;
+}
+.admin-profilr-overview {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: #daedf4;
+  border: 2px solid rgba(20, 20, 20, 0.1);
+  box-sizing: border-box;
+  width: 100%;
+  height: 2104px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans-arabic);
+}

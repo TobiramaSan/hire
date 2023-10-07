@@ -1,0 +1,65 @@
+.more-jobs-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  gap: 3px;
+  margin: 96px 0px 66px;
+}
+
+.more-jobs-container > div {
+  background: #ded9c3;
+  width: 25%;
+  padding: 29px 45px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.single-more-jobs {
+  display: flex;
+  align-items: center;
+}
+
+.single-more-jobs .blue-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #0706ce;
+  border-radius: 50%;
+}
+
+.single-more-jobs p {
+  color: #0706ce;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: 42px;
+}
+
+.find-more {
+  display: block;
+  margin: 0px auto;
+  color: #4943da;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #4943da;
+  padding: 15px 16px;
+  cursor: pointer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .more-jobs-container {
+    flex-direction: column;
+  }
+
+  .more-jobs-container > div {
+    width: 100%;
+  }
+}

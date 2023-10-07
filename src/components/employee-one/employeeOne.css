@@ -1,0 +1,80 @@
+.personal-details-cont {
+  width: 100%;
+  margin-top: 85px;
+}
+
+.personal-details-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.personal-details-form label {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 203px;
+}
+
+.personal-details-form input {
+  border: 5px solid #385d87;
+  background: #fff;
+  width: 391px;
+}
+
+.personal-details-form.full input {
+  width: 913px;
+}
+
+.personal-details-status,
+.personal-details-phone {
+  display: flex;
+  width: 913px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.personal-details-status div {
+  width: 159px;
+  display: flex;
+}
+
+.personal-details-phone div {
+  width: 309px;
+  display: flex;
+}
+
+.personal-details-status div input {
+  width: 50%;
+}
+
+.personal-details-phone div label {
+  width: unset;
+}
+
+.personal-details-phone div input {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.mandatory-fields {
+  width: 671px;
+  padding: 53px 46px;
+  margin: 100px auto 0px;
+  border-radius: 20px;
+  border: 3px solid #355e8c;
+  background: #4f81bc;
+}
+
+.mandatory-fields p {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans Arabic;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 83px;
+}

@@ -1,0 +1,15 @@
+.advertise-us-container {
+  padding: 200px 0px 100px;
+  width: 88%;
+  margin: 0px auto;
+}
+
+.advertise-first {
+  display: flex;
+}
+
+.advertise-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,104 @@
+.packages-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.packages-container > h2 {
+  color: #212529;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 100% */
+}
+
+.packages-single-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.packages-single-container .basic {
+  border-radius: 5px;
+  border-top: 5px solid #5e2dfa;
+  background: #f6f6f6;
+}
+
+.packages-single-container .premium {
+  border-radius: 5px;
+  border-top: 5px solid #17d27c;
+  background: #f6f6f6;
+}
+
+.packages-single-wrapper {
+  width: 28%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.packages-single-wrapper > h2 {
+  color: #212529;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 100% */
+}
+
+.packages-single-wrapper > h3 {
+  color: #565656;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 100% */
+}
+
+.packages-single-wrapper.basic span {
+  color: #5e2dfa;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px; /* 100% */
+}
+
+.packages-single-wrapper.premium span {
+  color: #17d27c;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px; /* 100% */
+}
+
+.packages-single-wrapper > p {
+  color: #868686;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 43px; */
+}
+
+.packages-single-wrapper button {
+  border-radius: 5px;
+  background: #003087;
+  border: none;
+  padding: 12px 93.03px 12px 93.22px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}

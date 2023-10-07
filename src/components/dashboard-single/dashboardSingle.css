@@ -1,0 +1,33 @@
+.dashboard-single-container {
+  width: 32%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 23px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #f3f6ff;
+  flex-direction: column;
+}
+
+.dashboard-single-container > h2 {
+  color: #17d27c;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 100% */
+}
+
+.dashboard-single-container p {
+  color: #333;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
+}

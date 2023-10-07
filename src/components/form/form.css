@@ -1,0 +1,56 @@
+.form-group-container {
+  width: 100%;
+  margin: 40px auto 0px;
+}
+
+.form-groups {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.form-groups label {
+  display: block;
+  color: #272727;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+
+.form-groups span {
+  color: #f94a4a;
+}
+
+.form-groups input {
+  border-radius: 10px;
+  border: 1px solid #e8f4f3;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  padding: 14.989px 20.009px 16.989px 19.999px;
+  align-items: flex-start;
+}
+
+.form-group-container button {
+  border-radius: 100px;
+  border: 1px solid #272727;
+  background: #272727;
+  width: 100%;
+  padding: 12px 0px;
+  color: #fff;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 500px) {
+  .form-group-container {
+    width: 95%;
+  }
+}

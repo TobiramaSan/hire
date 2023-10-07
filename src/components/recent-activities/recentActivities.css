@@ -1,0 +1,22 @@
+.recent-activities-container {
+  width: 49%;
+  border-radius: 16px;
+  border: 1px solid #e0e6f7;
+  background: #fff;
+  padding: 18px 0px 50px 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.recent-activities-container > h2 {
+  color: #05264e;
+  font-family: "Inter", sans-serif;
+  padding: 18px 30px;
+  border-bottom: 1px solid #e0e6f7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 130% */
+}

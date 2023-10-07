@@ -1,0 +1,126 @@
+.personal-details-cont {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.personal-details-header {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.personal-details-single {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 14px;
+}
+
+.personal-details-single h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+
+.personal-details-single.active {
+  border-bottom: 2px solid #0a65cc;
+}
+
+.personal-details-single.active h2 {
+  color: #0a65cc;
+}
+
+.personal-details-body {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.personal-details-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.personal-details-form label {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 203px;
+}
+
+.personal-details-form input {
+  border: 5px solid #385d87;
+  background: #fff;
+  width: 391px;
+  box-sizing: border-box;
+}
+
+.personal-details-form.full input {
+  width: 913px;
+}
+
+.personal-details-status,
+.personal-details-phone {
+  display: flex;
+  width: 913px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.personal-details-status div {
+  width: 159px;
+  display: flex;
+}
+
+.personal-details-phone div {
+  width: 309px;
+  display: flex;
+}
+
+.personal-details-status div input {
+  width: 50%;
+}
+
+.personal-details-phone div label {
+  width: unset;
+}
+
+.personal-details-phone div input {
+  width: 100%;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .personal-details-cont {
+    margin-top: 20px;
+  }
+
+  .personal-details-form,
+  .personal-details-phone,
+  .personal-details-status,
+  .personal-details-phone div {
+    flex-direction: column;
+    width: 100%;
+    align-items: unset;
+  }
+
+  .personal-details-form input,
+  .personal-details-form.full input {
+    width: 100%;
+  }
+
+  .personal-details-phone div input {
+    margin-left: 0px;
+  }
+}

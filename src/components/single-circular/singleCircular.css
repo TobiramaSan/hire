@@ -1,0 +1,98 @@
+.single-circular-container {
+  width: 100%;
+  background-color: #fff;
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+  padding: 20px 9px 24px 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.single-circular-user {
+  display: flex;
+  gap: 15px;
+}
+
+.single-circular-head {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-circular-head h2 {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-head p {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-container h3 {
+  margin: 20px 0px 15px;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-container h4 {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-container h5 {
+  margin: 20px 0px 25px;
+  color: #585858;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-apply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.single-circular-apply p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.single-circular-apply button {
+  border-radius: 10px;
+  background: #f9f9ff;
+  padding: 9px 8px;
+  border: none;
+  color: #4943da;
+  cursor: pointer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 1s all ease;
+}
+
+.single-circular-apply button:hover {
+  background: #4943da;
+  color: white;
+  transition: 1s all ease;
+}

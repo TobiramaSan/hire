@@ -1,0 +1,333 @@
+.stepseven {
+  width: 100%;
+  background: #fff;
+  padding: 76px 0 187px 0;
+  width: 100%;
+}
+
+.stepseven .personal-details-header {
+  width: 100%;
+}
+
+.stepseven-container {
+  padding-top: 30px;
+  /* width: 64%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 86px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-legal {
+  padding: 11px 120.77px 11px 120.98px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #0a65cc;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+}
+
+.legal-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.yes-no {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.yes,
+.no {
+  display: flex;
+  width: max-content;
+  padding: 8px 12px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.no label,
+.yes label {
+  color: #495057;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.yes input,
+.no input {
+  width: 28px;
+  height: 24px;
+  padding: 10px 13px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.sub-main {
+  color: #000;
+  font-family: Noto Sans Arabic;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.text-box label {
+  color: #999;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.text-box textarea {
+  display: flex;
+  width: 882.75px;
+  height: 148px;
+  padding: 14px 55.8px 14px 17px;
+  align-items: center;
+  border: 1px solid #000;
+  background: #fff;
+}
+.legal-main h1 {
+  color: #000;
+  font-family: Noto Sans Arabic;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.acknowledgement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.acknowledgement-header {
+  width: 889px;
+  height: 117px;
+  flex-shrink: 0;
+  background: #4540db;
+}
+
+.acknowledgement-header h1 {
+  color: #fff;
+  font-family: Noto Sans Arabic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px;
+}
+
+.acknowledgement button {
+  background: #4540db;
+  color: #fff;
+  font-family: Noto Sans Arabic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  border: 1px solid #4540db;
+  background: #4540db;
+  padding: 13px;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: flex-start;
+  gap: 73.53px;
+  width: 100%;
+}
+
+.picture,
+.select-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+.select-photo {
+  width: 40.5%;
+  height: 264px;
+}
+
+.square-dp {
+  /* width: 165.94px; */
+  width: 171.471px;
+  height: 175.974px;
+}
+
+.square-dp .dp {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.square-dp .dp img {
+  width: 100%;
+}
+
+.picture h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87.523%;
+}
+
+.select-photo {
+  width: 40.5%;
+  height: 264px;
+  border: 3px solid #000;
+}
+
+.select-photo div.dotted {
+  width: 95%;
+  height: 226px;
+  flex-shrink: 0;
+  border: 4px dashed #000;
+  margin: auto;
+}
+
+.select-photo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: auto;
+  gap: 5px;
+}
+
+.select-photo button {
+  display: inline-flex;
+  padding: 14px 30.64px 13.42px 30.84px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #233d7b;
+  background: #233d7b;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.43px;
+}
+
+.select-photo h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 163px;
+}
+
+.terms div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.terms div input {
+  width: 18px;
+  height: 18px;
+}
+
+.terms h2 span {
+  color: #777;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+
+.terms h2 {
+  color: #242424;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 214.286% */
+}
+
+.terms .register {
+  display: inline-flex;
+  padding: 14px 30.64px 13.42px 30.84px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #233d7b;
+  background: #233d7b;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+}
+
+.dashboard {
+  display: inline-flex;
+  padding: 11px 56.52px 11px 59.48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #0a65cc;
+  border: 1px solid #0a65cc;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+}

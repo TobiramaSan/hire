@@ -1,0 +1,101 @@
+.employee-jobs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fcfdff;
+  padding: 23px 4px;
+  align-items: center;
+}
+
+.employee-jobs-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 81%;
+}
+
+.employee-jobs-text {
+  display: flex;
+  gap: 15px;
+}
+
+.employee-jobs-text div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.employee-jobs-text div h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+}
+
+.employee-jobs-text div p {
+  color: #969595;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}
+
+.employee-jobs-text div h3 {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: 14px;
+}
+
+.employee-jobs-text div h3 span {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
+  border-radius: 3px;
+  background: #6aca00;
+  padding: 4px 6px;
+}
+
+.employee-jobs-head button {
+  border-radius: 40px;
+  border: 1px solid #5e2dfa;
+  background: #fff;
+  display: flex;
+  color: #5e2dfa;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 100% */
+  text-transform: uppercase;
+  padding: 11px 45.555px 11px 45.775px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-jobs-container > p {
+  width: 81%;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}

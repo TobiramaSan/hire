@@ -1,0 +1,108 @@
+.job-single-container {
+  width: 31.8%;
+  box-sizing: border-box;
+  display: inline-flex;
+  border-radius: 8px;
+  border: 1px solid var(--gray-100, #e4e5e8);
+  background: var(--gray-00, #fff);
+  box-shadow: 0px 2px 18px 0px rgba(24, 25, 28, 0.03);
+  padding: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.job-single-conta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-single-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.job-single-cont > h2 {
+  color: var(--gray-900, #18191c);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.job-single-cont div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.job-single-cont h3 {
+  display: flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 3px;
+  background: var(--success-50, #e7f6ea);
+  color: var(--success-500, #0ba02c);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; /* 100% */
+  text-transform: uppercase;
+}
+
+.job-single-cont p {
+  color: var(--gray-500, #767f8c);
+
+  /* Body/Small/400 */
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.job-single-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.job-single-image {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--gray-scale-50, #edeff5);
+}
+
+.job-single-text h2 {
+  color: var(--gray-900, #18191c);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.job-single-text p {
+  color: var(--gray-500, #767f8c);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.job-single-text div {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}

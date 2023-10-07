@@ -1,0 +1,484 @@
+/* .candidate-sign-up-step-24 .group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 180px;
+  height: 87px;
+}
+.candidate-sign-up-step-24 .group-item {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  width: 149px;
+  height: 59px;
+}
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-24 .group-child1,
+.candidate-sign-up-step-24 .group-inner,
+.candidate-sign-up-step-24 .rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 30px;
+  height: 2px;
+}
+.candidate-sign-up-step-24 .group-child1,
+.candidate-sign-up-step-24 .rectangle-div {
+  top: 5px;
+}
+.candidate-sign-up-step-24 .group-child1 {
+  top: 10px;
+}
+.candidate-sign-up-step-24 .rectangle-group {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  width: 30px;
+  height: 12px;
+}
+.candidate-sign-up-step-24 .rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 87px;
+  text-align: center;
+  font-family: var(--font-poppins);
+}
+.click-here {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 800;
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 1902px;
+  left: 404px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+.button1 {
+  left: 774px;
+}
+.candidate-sign-up-step-24 .rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 114.78px;
+  width: 235.01px;
+  height: 210.5px;
+}
+.self-declaration {
+  margin: 0;
+}
+.step-5-self-container {
+  position: absolute;
+  top: 60.39px;
+  left: 132.29px;
+  font-weight: 900;
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 42.89px;
+  left: 3.63px;
+  border-radius: 50%;
+  background-color: #c0504e;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 126.91px;
+  height: 123.41px;
+}
+.register-candidate {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  color: var(--color-white);
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.candidate-sign-up-step-24 .vector-parent {
+  position: absolute;
+  top: 48px;
+  left: 523px;
+  width: 349.79px;
+  height: 210.5px;
+  text-align: center;
+  font-family: var(--font-lato);
+}
+.candidate-sign-up-step-24-child {
+  position: absolute;
+  top: 270px;
+  left: 39px;
+  background-color: var(--color-black);
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 176px;
+  height: 93px;
+}
+.legal {
+  position: absolute;
+  top: 285px;
+  left: 75px;
+  font-size: var(--font-size-11xl);
+  font-weight: 900;
+  color: var(--color-white);
+}
+.candidate-sign-up-step-24 .group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-tan);
+  width: 1328.52px;
+  height: 63px;
+}
+.have-you-ever {
+  position: absolute;
+  top: 4px;
+  left: 13.24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1302.92px;
+}
+.candidate-sign-up-step-24 .group-child3,
+.candidate-sign-up-step-24 .rectangle-container {
+  position: absolute;
+  top: 418px;
+  left: 30px;
+  width: 1328.52px;
+  height: 63px;
+}
+.candidate-sign-up-step-24 .group-child3 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-tan);
+  height: 89px;
+}
+.have-you-ever1 {
+  position: absolute;
+  top: 14px;
+  left: 18.54px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1323.22px;
+}
+.candidate-sign-up-step-24 .group-div {
+  position: absolute;
+  top: 726px;
+  left: 30.88px;
+  width: 1341.76px;
+  height: 89px;
+}
+.candidate-sign-up-step-24-inner,
+.candidate-sign-up-step-24-item,
+.candidate-sign-up-step-24 .group-child4,
+.candidate-sign-up-step-24 .group-child5,
+.candidate-sign-up-step-24 .group-child6,
+.candidate-sign-up-step-24 .group-child7 {
+  position: absolute;
+  top: 966px;
+  left: 385px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 919px;
+  height: 42px;
+}
+.candidate-sign-up-step-24-inner,
+.candidate-sign-up-step-24 .group-child4,
+.candidate-sign-up-step-24 .group-child5,
+.candidate-sign-up-step-24 .group-child6,
+.candidate-sign-up-step-24 .group-child7 {
+  top: 611px;
+}
+.candidate-sign-up-step-24 .group-child4,
+.candidate-sign-up-step-24 .group-child5,
+.candidate-sign-up-step-24 .group-child6,
+.candidate-sign-up-step-24 .group-child7 {
+  top: 6px;
+  left: 271px;
+  width: 39.72px;
+}
+.candidate-sign-up-step-24 .group-child5,
+.candidate-sign-up-step-24 .group-child6,
+.candidate-sign-up-step-24 .group-child7 {
+  left: 103.28px;
+}
+.candidate-sign-up-step-24 .group-child6,
+.candidate-sign-up-step-24 .group-child7 {
+  top: 362px;
+  left: 271px;
+}
+.candidate-sign-up-step-24 .group-child7 {
+  left: 103.28px;
+}
+.candidate-sign-up-step-24 .group-child8 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 77.68px;
+  height: 43px;
+}
+.no {
+  position: absolute;
+  top: 0;
+  left: 21.19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 35.31px;
+}
+.candidate-sign-up-step-24 .group-child9,
+.candidate-sign-up-step-24 .rectangle-parent2 {
+  position: absolute;
+  top: 353px;
+  left: 173.02px;
+  width: 77.68px;
+  height: 53px;
+}
+.candidate-sign-up-step-24 .group-child9 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 314.25px;
+  height: 82px;
+}
+.if-yes-give-container {
+  position: absolute;
+  top: 0;
+  left: 18.54px;
+  font-weight: 500;
+  display: inline-block;
+  width: 246.28px;
+}
+.candidate-sign-up-step-24 .rectangle-parent3,
+.candidate-sign-up-step-24 .rectangle-parent4 {
+  position: absolute;
+  left: 2.65px;
+  width: 314.25px;
+}
+.candidate-sign-up-step-24 .rectangle-parent3 {
+  top: 434px;
+  height: 82px;
+  font-size: 18px;
+}
+.candidate-sign-up-step-24 .rectangle-parent4 {
+  top: 77px;
+  height: 126px;
+  font-size: var(--font-size-xl);
+}
+.yes {
+  position: absolute;
+  top: 0;
+  left: 21.19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 40.61px;
+}
+.candidate-sign-up-step-24 .rectangle-parent5 {
+  position: absolute;
+  top: 353px;
+  left: 0;
+  width: 77.68px;
+  height: 53px;
+}
+.candidate-sign-up-step-24 .group-child12,
+.candidate-sign-up-step-24 .group-child13 {
+  position: absolute;
+  top: 707px;
+  left: 271px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 39.72px;
+  height: 42px;
+}
+.candidate-sign-up-step-24 .group-child13 {
+  left: 103.28px;
+}
+.candidate-sign-up-step-24 .group-child14 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 77.68px;
+  height: 43px;
+}
+.candidate-sign-up-step-24 .group-child15,
+.candidate-sign-up-step-24 .rectangle-parent6 {
+  position: absolute;
+  top: 699px;
+  left: 173.02px;
+  width: 77.68px;
+  height: 53px;
+}
+.candidate-sign-up-step-24 .group-child15 {
+  top: 6px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  height: 43px;
+}
+.yes1 {
+  position: absolute;
+  top: 0;
+  left: 20.19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 40.61px;
+}
+.candidate-sign-up-step-24 .rectangle-parent7,
+.candidate-sign-up-step-24 .rectangle-parent8 {
+  position: absolute;
+  top: 697px;
+  left: 0;
+  width: 77.68px;
+  height: 53px;
+}
+.candidate-sign-up-step-24 .rectangle-parent8 {
+  top: 1px;
+  left: 173.02px;
+}
+.yes2 {
+  position: absolute;
+  top: 0;
+  left: 19.19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 40.61px;
+}
+.candidate-sign-up-step-24 .rectangle-parent9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 77.68px;
+  height: 53px;
+}
+.candidate-sign-up-step-24 .rectangle-parent1 {
+  position: absolute;
+  top: 515px;
+  left: 51.19px;
+  width: 316.9px;
+  height: 752px;
+}
+.candidate-sign-up-step-24 .group-child18 {
+  background-color: var(--color-tan);
+}
+.candidate-sign-up-step-24 .group-child18,
+.candidate-sign-up-step-24 .rectangle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1355px;
+  height: 117px;
+}
+.i-the-applicant-container {
+  position: absolute;
+  top: 0;
+  left: 19.42px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1241.13px;
+}
+.candidate-sign-up-step-24 .group-child19,
+.candidate-sign-up-step-24 .group-parent {
+  position: absolute;
+  top: 1067px;
+  left: 30px;
+  width: 1355px;
+  height: 117px;
+}
+.candidate-sign-up-step-24 .group-child19 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-tan);
+  width: 392.82px;
+  height: 63px;
+}
+.upload-a-passport {
+  position: absolute;
+  top: 0;
+  left: 20.3px;
+  font-weight: 500;
+  display: inline-block;
+  width: 352.21px;
+}
+.candidate-sign-up-step-24 .group-child20,
+.candidate-sign-up-step-24 .rectangle-parent10 {
+  position: absolute;
+  top: 1310px;
+  left: 30.88px;
+  width: 392.82px;
+  height: 63px;
+}
+.candidate-sign-up-step-24 .group-child20 {
+  top: 5px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 122.7px;
+  height: 49px;
+}
+.upload {
+  position: absolute;
+  top: 0;
+  left: 21.19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 87.39px;
+  height: 47.44px;
+}
+.candidate-sign-up-step-24 .rectangle-parent11 {
+  position: absolute;
+  top: 1688px;
+  left: 54.72px;
+  width: 122.7px;
+  height: 54px;
+}
+.main-page2-edited-2023-page-00 {
+  position: absolute;
+  top: 1394px;
+  left: 34px;
+  width: 811px;
+  height: 269px;
+  object-fit: cover;
+}
+.candidate-sign-up-step-24 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: #daedf4;
+  border: 2px solid rgba(20, 20, 20, 0.1); 
+  box-sizing: border-box;
+  width: 100%;
+  height: 2104px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans-arabic);
+} */

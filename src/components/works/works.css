@@ -1,0 +1,38 @@
+.works-container {
+  width: 85%;
+  margin: 154px auto;
+}
+
+.works-container > h2 {
+  color: #002;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.works-line {
+  width: fit-content;
+  margin: 30px auto 0px;
+}
+
+.works-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 100px;
+  margin: 100px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .works-container {
+    width: 90%;
+  }
+
+  .works-wrapper {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

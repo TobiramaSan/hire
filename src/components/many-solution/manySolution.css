@@ -1,0 +1,31 @@
+.many-solution-container {
+  width: 96%;
+  margin: 100px auto;
+}
+
+.many-solution-container > h2 {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 25%;
+  margin: 0px auto;
+}
+
+.many-solution-container > h2 span {
+  color: #4540db;
+}
+
+.many-solution-wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .many-solution-container > h2 {
+    width: 100%;
+    font-size: 25px;
+  }
+}

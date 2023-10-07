@@ -1,0 +1,167 @@
+.aboutus-container {
+  width: 92%;
+  margin: 70px auto 88px;
+}
+
+.aboutus-wrapper {
+  width: 97%;
+}
+
+.aboutus-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutus-banner-img {
+  width: 55%;
+}
+
+.aboutus-banner-img img {
+  width: 100%;
+}
+
+.aboutus-banner-text {
+  width: 32%;
+}
+
+.aboutus-banner-text h2 {
+  color: #002;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.aboutus-banner-text h3 {
+  color: #002;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.aboutus-banner-text p {
+  color: #002;
+  width: 68%;
+  margin: 19px 0px 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutus-banner-text div {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  width: 100%;
+}
+
+.aboutus-banner-text div button {
+  border-radius: 10px;
+  padding: 18px 36px;
+  width: 49%;
+  font-size: 14px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.aboutus-banner-text div button:first-child {
+  color: #fff;
+  background: #1f64ff;
+}
+
+.aboutus-banner-text div button:last-child {
+  color: #1f64ff;
+  border: 1px solid #1f64ff;
+  background: #fff;
+}
+/* 
+.about-us {
+} */
+
+.about-us > h2 {
+  color: #002;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.about-us-cont {
+  margin-top: 29px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.about-us-cont p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Lato", sans-serif;
+  /* display: flex;
+  align-items: center; */
+}
+
+.aboutus-cont-head {
+  margin: 0px auto 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.aboutus-cont-head > h2 {
+  color: #002;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-family: "Lato", sans-serif;
+}
+
+.about-us-points {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-points div {
+  display: flex;
+  align-items: center;
+}
+
+.about-us-points span {
+  margin: 0px 4px 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutus-container {
+    margin: 20px auto;
+  }
+
+  .aboutus-banner {
+    flex-direction: column;
+    align-items: unset;
+    width: 100%;
+  }
+
+  .aboutus-banner-img,
+  .aboutus-banner-text {
+    width: 100%;
+  }
+
+  .aboutus-banner-text h2 {
+    font-size: 40px;
+  }
+}

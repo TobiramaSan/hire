@@ -1,0 +1,274 @@
+.welcome-container {
+  width: 100%;
+  /* max-width: 1358px; */
+  margin: 0px auto;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.welcome-nav {
+  display: flex;
+  gap: 50px;
+}
+
+.welcome-nav a {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.welcome-banner {
+  width: 100%;
+  padding: 100px 0px 80px;
+  width: 95%;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+.welcome-place {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.welcome-place h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 100% */
+}
+
+.welcome-place span {
+  color: #17d27c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 100% */
+}
+
+.welcome-advert {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+}
+
+.welcome-advert-text {
+  width: 58%;
+}
+
+.welcome-advert-search {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-advert-input {
+  width: 39%;
+  border-right: 1px solid #eee;
+  background: #fff;
+}
+
+.welcome-advert-input input,
+.welcome-advert-select select {
+  padding: 14px 15px;
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  color: #6c757d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  appearance: none;
+}
+
+.welcome-advert-input input:focus,
+.welcome-advert-select select:focus {
+  outline: none;
+}
+
+.welcome-advert-select {
+  width: 36%;
+}
+
+.welcome-advert-button {
+  border-radius: 8px;
+  background: #17d27c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.welcome-advert-popular {
+  display: flex;
+  margin: 39px 0px 60px;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.welcome-advert-popular > h2 {
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 100% */
+}
+
+.welcome-advert-industries p {
+  color: #5e7ca1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
+  display: inline-flex;
+  padding: 5px 9.92px 5px 10px;
+  align-items: flex-start;
+  border-radius: 25px;
+  background: #e7f1ff;
+  margin-right: 11px;
+  margin-bottom: 13px;
+}
+
+.welcome-advert-number {
+  display: flex;
+  gap: 30px;
+}
+
+.welcome-advert-single {
+  border-radius: 15px;
+  background: #f8fbff;
+  display: flex;
+  padding: 19px 69.5px 20px 20px;
+  align-items: flex-end;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.welcome-advert-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaeff5;
+}
+
+.welcome-advert-single h2 {
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 100% */
+}
+
+.welcome-advert-single p {
+  color: #212529;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.welcome-type {
+  width: 87%;
+  margin: 73px auto;
+}
+
+.welcome-type img {
+  width: 100%;
+}
+
+.welcome-footer {
+  margin-top: 160px;
+  background: #4540db;
+  width: 100%;
+}
+
+.welcome-footer h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-banner {
+    padding: 20px 0px;
+  }
+
+  .welcome-place,
+  .welcome-advert,
+  .welcome-type {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .welcome-place {
+    margin-bottom: 40px;
+  }
+
+  .welcome-place h2 {
+    font-size: 25px;
+  }
+
+  .welcome-advert {
+    flex-direction: column;
+  }
+
+  .welcome-advert-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .welcome-advert-number {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .welcome-advert-single {
+    width: 32%;
+    padding: 10px;
+  }
+
+  .welcome-advert-single h2 {
+    font-size: 20px;
+  }
+
+  .welcome-advert-single p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome-nav a {
+    font-size: 16px;
+  }
+}

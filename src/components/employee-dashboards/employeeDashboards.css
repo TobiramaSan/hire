@@ -1,0 +1,61 @@
+.employee-dashboards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background: #f5f7ff;
+  padding: 46px;
+  box-sizing: border-box;
+}
+
+.employee-dashboards-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.employee-dashboards-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
+
+.employee-dashboards-package {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  background: #fcfdff;
+  box-shadow: 0px 18px 40px 0px rgba(25, 15, 9, 0.1);
+  display: flex;
+  padding: 31px 21.25px 51px 21px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.employee-dashboards-package p {
+  color: #212529;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+
+.employee-dashboards-package span {
+  color: #5e2dfa;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.employee-dashboards-activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}

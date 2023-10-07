@@ -1,0 +1,58 @@
+.profilling-container {
+  width: 81%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: #4540db;
+  align-items: center;
+  padding: 0px 11px 86px 0px;
+  margin-bottom: 100px;
+}
+
+.profilling-text h2 {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profilling-text p {
+  color: #fff;
+  margin: 15px 0px 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profilling-text button {
+  padding: 15px;
+  color: #4540db;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .profilling-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .profilling-img,
+  .profilling-img img {
+    width: 100%;
+  }
+
+  .profilling-text {
+    text-align: center;
+  }
+}
