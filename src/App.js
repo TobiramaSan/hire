@@ -25,7 +25,7 @@ import EmployeePost from "./pages/employee/employee-post/employeePost";
 import EmployeeInvoice from "./pages/employee/employee-invoice/employeeInvoice";
 import EmployeePayments from "./pages/employee/employee-payment/employeePayment";
 import EmployeeEditProfile from "./pages/employee/employee-editprofile/employeeEditProfile";
-import CandidateDashboard from "./components/candidate-dashboard/candidateDashboard";
+import CandidateDashboard from "./pages/candidate-dashboard/candidateDashboard";
 function App() {
   const variants = {
     hidden: { opacity: 0, x: 200, y: 0 },

@@ -1,0 +1,112 @@
+.navbar {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  width: 100%;
+  height: 90vh;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.candidate-blk {
+  padding: 20px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.candidate-blk button {
+  color: #fff;
+  text-align: center;
+  font-family: menlo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px; /* 150% */
+  border-radius: 4px;
+  border: 1px solid #1967d2;
+  background: #1967d2;
+  display: flex;
+  padding: 5px 8px;
+  align-items: center;
+}
+
+.candidate-info h1 {
+  color: #202124;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.4px;
+}
+
+.candidate-info p {
+  color: #202124;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+
+.candidate-picture {
+  width: 90px;
+  height: 90px;
+  max-width: 90px;
+  flex-shrink: 0;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.pic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.navbar .navlinks {
+  padding: 20px;
+  margin: 0px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.navbar .navlinks .link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.navbar .navlinks .link p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.navbar .navlinks .link p:hover {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 100% */
+}
